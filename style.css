@@ -23,7 +23,7 @@ li {
   padding-left: 500px;
 }
 .header-sec a {
-  
+  text-decoration: none;
   color: white;
   opacity:1;
 }
@@ -88,6 +88,9 @@ li {
   line-height: 40px;
   text-align: center;
 }
+.aboutbook span {
+  font-weight: bold;
+}
 .aboutcome h1 {
   text-align: center;
   margin-top: 50px;
@@ -97,12 +100,40 @@ li {
   float: right;
   margin-right: 250px;
   margin-top:50px;
-  margin-bottom: 300px;
   border: 5px solid black;
-  padding: 3px
+  padding: 3px;
+  
 }
 .reading{
   text-align: center;
   line-height: 40px;
   margin-top :200px;
 }
+.reading span {
+  font-weight: bold;
+}
+footer  {
+  background-color: black;
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  margin:300px 0 0 660px;
+  position: relative;
+}
+ footer:hover {
+   opacity:0.5;
+   cursor: pointer;
+ }
+ .backtop{
+  color:white;
+  font-size: 50px;
+  position:absolute;
+  top:12px;
+  left: 24px;
+  text-decoration: none;
+ }
+ .finish {
+   text-align:center;
+   margin-top: 20px ;
+   font-size: 20px;;
+ } 
