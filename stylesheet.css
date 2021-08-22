@@ -1,0 +1,108 @@
+.header {
+  height: 95px;
+}
+
+li {
+  list-style: none;
+}
+
+.header-plo{
+  padding: 10px 30px;
+  margin-left: 250px;
+  float: left;
+  background-color: black;
+  color: white;
+  opacity: 0.8;
+}
+.header-list { 
+  display: inline-block;
+}
+.header-sec {
+  margin-top: 30px;
+  float:right;
+  padding-left: 500px;
+}
+.header-sec a {
+  
+  color: white;
+  opacity:1;
+}
+.header-sec a:hover {
+  opacity:0.5;
+}
+.intro {
+  margin-right: 30px;
+  cursor: pointer;
+  background-color: black;
+  padding: 3px 7px;
+  border-radius: 0.5rem;
+}
+.book {
+  margin-right: 30px;
+  cursor: pointer;
+  background-color: black;
+  padding: 3px 7px;
+  border-radius: 0.5rem;
+  
+}
+.comedian {
+  cursor: pointer;
+  background-color: black;
+  padding: 3px 7px;
+  border-radius: 0.5rem;
+}
+.main h1 {
+  text-align: center;
+}
+.intro-photo {
+  text-align: center;
+}
+.intro-photo img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.theme {
+  text-align: center;
+  line-height: 40px;
+}
+.theme span {
+  font-weight: bold;
+}
+.tarinai img {
+  height: 400px;
+}
+.aboutbook h1 {
+  text-align: center;
+  margin-top:50px;
+}
+.tarinai {
+  margin-left: 250px;
+  margin-top: 50px;
+  margin-right: 100px;
+  border: 5px solid black;
+}
+.aboutbook p{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 40px;
+  text-align: center;
+}
+.aboutcome h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+.murakami img{
+  height: 400px;
+  float: right;
+  margin-right: 250px;
+  margin-top:50px;
+  margin-bottom: 300px;
+  border: 5px solid black;
+  padding: 3px
+}
+.reading{
+  text-align: center;
+  line-height: 40px;
+  margin-top :200px;
+}
